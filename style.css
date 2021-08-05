@@ -1,0 +1,28 @@
+.container{
+    margin-top: 5%;
+}
+
+.card {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px;
+}
+
+.card-header{
+    background-color: white;
+    padding: 20px;
+    font-size: 1.8rem;
+    color: lightseagreen;
+}
+
+.btn{
+    background-color: lightseagreen;
+    color: white;
+    padding: 5px 20px;
+    font-size: 1.2rem;
+}
+
+.btn:hover{
+    background-color: lightblue;
+    color: black;
+}

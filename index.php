@@ -1,6 +1,6 @@
 <?php
 include_once('db_connection.php'); //require_once gives an fatal error
-include_once('assests.php');
+include_once('assets.php');
 ?>
 
 <head>

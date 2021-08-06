@@ -17,7 +17,20 @@
     }, false)
 })()
 
-
+function fMasc(objeto, mascara) {
+    obj = objeto
+    masc = mascara
+    setTimeout("fMascEx()", 1)
+}
+function fMascEx() {
+    obj.value = masc(obj.value)
+}
+function mCEP(cep) {
+    cep = cep.replace(/\D/g, "")
+    cep = cep.replace(/^(\d{2})(\d)/, "$1.$2")
+    cep = cep.replace(/\.(\d{3})(\d)/, ".$1-$2")
+    return cep
+}
 
 $(document).ready(function () {
 

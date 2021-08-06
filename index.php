@@ -3,6 +3,11 @@ include_once('db_connection.php'); //require_once gives an fatal error
 include_once('assests.php');
 ?>
 
+<head>
+    <title>Formulário</title>
+    <link rel="icon" href="icon.png">
+</head>
+
 <div class="container">
     <div class="card col-md-6 mb-3">
         <h5 class="card-header">Formulário</h5>
